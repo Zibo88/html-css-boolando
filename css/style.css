@@ -127,9 +127,11 @@ li {
 
 .heart {
     position: absolute;
-    right: 3px;
-    top: 1px;
+    right: 0px;
+    top: 0px;
     background-color: white;
+    padding: 7px;
+    margin-top: 6px;
 }
 
 .discount {
@@ -208,8 +210,13 @@ footer{
     text-align: right;
 }
 
+.footer-col-right:first-child {
+    font-size: 1px;
+}
+
 .social-link li {
-    padding:1px;
+ font-size: 12px ;
+ padding-right: 1px;
     
 }
 
