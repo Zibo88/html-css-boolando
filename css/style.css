@@ -7,7 +7,164 @@
 
 }
 
+/* -----COMMON----------- */
+
+a {
+    text-decoration: none;
+}
+
 img {
     width: 100%;
 }
+
+/* ------HEADER--------- */
+
+header {
+    height: 65px;
+    background-color: #ff6800;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+header * {
+    color: white;
+}
+
+.header-container-menu {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.target {
+    width: 25%;
+    display: flex;
+    
+}
+
+.target ul {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 0 5px;
+}
+
+.logo {
+    width:50%;
+    text-align: center;
+    
+}
+
+.logo img {
+    width: 100px;
+}
+
+
+.social-link {
+    width:25%;
+    text-align: right;
+}
+
+.social-link i {
+    padding: 5px;
+
+}
+
+/* ----MAIN------ */
+
+
+/* COMMON-MAIN */
+.column-container {
+    width: 70%;
+    padding-top: 90px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: calc(100% / 3);
+    padding: 0 5px;
+    margin: 10px 0;
+}
+/* ------------------------------ */
+
+.products {
+    position: relative;
+}
+
+.img-hoover {
+    display: none;
+}
+
+.products:hover .img-default{
+    display: none;
+
+}
+
+.products:hover .img-hoover {
+    display: inline-block;
+}
+
+.heart {
+    position: absolute;
+    right: 3px;
+    top: 1px;
+    background-color: white;
+}
+
+.discount {
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    color: white;
+}
+
+.sale {
+    background-color: #ff0000;
+    padding: 5px;
+    font-size: 11px;
+}
+
+.sostenibility {
+    background-color: #008001;
+    padding: 5px;
+    font-size: 11px;
+    
+}
+
+.caption .brand {
+    font-size: 10px;
+}
+
+.caption .type {
+    font-weight: 200;
+    padding: 2px 0;
+}
+
+.caption .discount-price {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.caption .old-price {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+
+
+
 
