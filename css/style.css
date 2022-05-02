@@ -212,10 +212,6 @@ footer{
     text-align: right;
 }
 
-.footer-col-right:first-child {
-    font-size: 1px;
-}
-
 .social-link li {
  font-size: 12px ;
  padding-right: 1px;
