@@ -139,7 +139,7 @@ main {
     margin-top: 6px;
 }
 
-.products:hover .heart {
+.heart:hover  {
     color: red;
 }
 
@@ -188,6 +188,7 @@ main {
 /* -----FOOTER------ */
 footer{
     background-color: black;
+    margin-top: 30px;
 }
 
 .footer-container {
@@ -225,6 +226,10 @@ footer{
  font-size: 12px ;
  padding-right: 1px;
     
+}
+
+.social-title{
+    padding-right: 10px;
 }
 
 
