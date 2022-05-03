@@ -135,6 +135,11 @@ li {
     margin-top: 6px;
 }
 
+.products:hover .heart {
+    color: red;
+}
+
+
 .discount {
     position: absolute;
     bottom: 40px;
